@@ -1,15 +1,11 @@
 # Event Propogation
 
 
-	Event propagation refers to the process of an event being passed through a hierarchy of elements or components in a software system. 
-	When an event occurs, such as a user interaction or a system event, it is typically propagated from the source of the event to its parent elements or components, and potentially further up the hierarchy.
+Event propagation refers to the process of an event being passed through a hierarchy of elements or components in a software system. When an event occurs, such as a user interaction or a system event, it is typically propagated from the source of the event to its parent elements or components, and potentially further up the hierarchy.
 
-	Event propagation allows different elements or components in a software system to respond to events in a coordinated manner. 
-	It enables event handlers to be defined at different levels of the hierarchy, allowing for flexibility and modularity in the design of software systems.
+Event propagation allows different elements or components in a software system to respond to events in a coordinated manner. It enables event handlers to be defined at different levels of the hierarchy, allowing for flexibility and modularity in the design of software systems.
 
-	In summary, event propagation is the mechanism by which events are passed through a hierarchy of elements or components in a software system, 
-	allowing for coordinated event handling and enabling modular and flexible software design.
-
+In summary, event propagation is the mechanism by which events are passed through a hierarchy of elements or components in a software system, allowing for coordinated event handling and enabling modular and flexible software design.
 
 <b>Phases involved:</b>
 1. `Capturing`
@@ -78,6 +74,5 @@ By understanding event propagation, we can leverage it to handle events efficien
 <br/>
 
 # Event Delegation
-```
+
 Event delegation is a technique in web development that allows for handling events on multiple elements with a single event handler. Instead of attaching event handlers to individual elements, event delegation involves attaching the event handler to a parent element that contains the target elements. When an event occurs on one of the target elements, the event bubbles up to the parent element, where the event handler is triggered. This approach is particularly useful when working with dynamically generated or large numbers of elements, as it reduces the number of event handlers needed and improves performance. Event delegation promotes a more efficient and scalable way of handling events in web applications.
-```
