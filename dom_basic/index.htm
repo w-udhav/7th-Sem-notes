@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.box {
+			width: 150px;
+			height: 100px;
+			padding: 10px;
+			border-radius: 8px;	
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border: 1px solid gray;
+		}
+		#boxContainer {
+			display: flex;
+			gap: 10px;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div id="boxContainer">
+		<div class="box">Box1</div>
+		<div class="box">Box2</div>
+		<div class="box">Box3</div>
+	</div>
+	<button id="actionBtn" onclick="giveColors()">Colors</button>
+	<button onclick="createChild()">Append Child</button>
+
+	<script src="index.js"></script>
+</body>
+</html>
