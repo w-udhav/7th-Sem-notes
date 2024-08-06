@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      #todo_container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      h1 {
+        font-weight: 800;
+        margin: 0;
+      }
+      p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form">
+        <input type="text" id="title" placeholder="Title" />
+        <input type="text" id="desc" placeholder="Description" />
+        <button type="submit">Add</button>
+      </form>
+    </div>
+
+    <div id="todo_container">
+      <div class="todo">
+        <h1>Todo TItle</h1>
+        <p>description</p>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
